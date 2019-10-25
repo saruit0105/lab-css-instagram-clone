@@ -8,3 +8,66 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blue {
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat;
+  height: 40vh;
+}
+
+.boxAll {
+  display: flex;
+  position: relative;
+  left: 200px;
+  width: 75vw;
+}
+
+.boxPhone {
+  position: relative;
+  top: -200px;
+}
+
+.bluePics {
+  display: flex;
+  position: relative;
+  top: 75px;
+  left: 550px;
+}
+
+.button {
+  background: #1c5380;
+  width: 75%;
+}
+
+.picTwo {
+  position: relative;
+  left: 100px;
+}
+
+.box {
+  position: relative;
+  background-color: white;
+  top: -75px;
+  left: 50px;
+  width: 500px;
+  height: 300px;
+  background-image: url(../images/frame.png);
+  background-size: contain;
+}
+
+.boxTitle {
+  position: relative;
+  left: 50px;
+  color: #06365f;
+  font-family: Helvetica;
+}
+.boxText {
+  place-items: center;
+  position: relative;
+  left: 25px;
+  font-family: Helvetica;
+}
+.boxPic {
+  position: relative;
+  left: 25px;
+}
